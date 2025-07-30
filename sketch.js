@@ -4,7 +4,7 @@ function setup() {
 }
 
 function draw() {
-  background(208, 104, 93); //cor de fundo
+  background(108, 80, 73); //cor de fundo
   rotateY(millis()/2000); // rotação da terra
   texture(terra); //textura da terra, imagem.
   sphere(400, 300); //esfera 3D
